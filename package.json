@@ -1,6 +1,6 @@
 {
     "name": "nuxt-utils-layer",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "main": "./nuxt.config.ts",
     "scripts": {
         "dev": "nuxi dev .playground",
