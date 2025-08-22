@@ -1,3 +1,23 @@
+/**
+ * Parses a user agent string and returns an object describing
+ * the operating system, browser, browser version, and device type.
+ *
+ * ### Parameters
+ *
+ * - **userAgent**: `any` — The user agent string to parse.
+ *
+ * ### Returns
+ *
+ * - `{ os: string, browser: string, browserVersion: string, deviceType: string } | undefined` —
+ *   An object containing the detected OS, browser, browser version, and device type,
+ *   or `undefined` if no user agent is provided.
+ *
+ * @function formatAgent
+ * @param {any} userAgent - The user agent string to analyze.
+ * @returns {{ os: string, browser: string, browserVersion: string, deviceType: string }}
+ * Object with OS, browser, browser version, and device type, or undefined.
+ * @module utils/formatAgent
+ */
 const formatAgent = (userAgent: any) => {
     if (userAgent) {
         let os = "";
@@ -46,7 +66,7 @@ const formatAgent = (userAgent: any) => {
             os: os,
             browser: browser,
             browserVersion: browserVersion,
-            deviceType: deviceType
+            deviceType: deviceType,
         };
     }
 

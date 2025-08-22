@@ -1,10 +1,28 @@
-import { ref  } from '#imports'
-
 type Props = {
     duration: number;
-    callback?: () => void
-}
+    callback?: () => void;
+};
 
+/**
+ * Composable that provides a countdown timer with start and reset functionality.
+ *
+ * The timer counts down from the given duration (in milliseconds) and optionally
+ * calls a callback function when finished.
+ *
+ * ### Returns
+ *
+ * - **isPending**: `Ref<boolean>` — `true` if the timer is currently running.
+ * - **timer**: `Ref<number>` — The remaining time in seconds.
+ * - **reset**: `Function` — Resets the timer to the initial duration and stops it.
+ * - **start**: `Function` — Starts the countdown timer.
+ *
+ * @function useTimer
+ * @param {Props} props - Timer configuration.
+ * @param {number} props.duration - Duration of the timer in milliseconds.
+ * @param {Function} [props.callback] - Optional callback to run when the timer finishes.
+ * @returns {{ isPending: Ref<boolean>, timer: Ref<number>, reset: Function, start: Function }} Timer state and controls.
+ * @module composables/useTimer
+ */
 const useTimer = ({ duration, callback }: Props) => {
     const timeout = ref<NodeJS.Timeout | null>(null);
     const interval = ref<NodeJS.Timeout | null>(null);
@@ -39,7 +57,7 @@ const useTimer = ({ duration, callback }: Props) => {
         isPending,
         timer,
         reset,
-        start
+        start,
     };
 };
 
