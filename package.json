@@ -17,7 +17,7 @@
         "generate": "nuxt generate .playground",
         "preview": "nuxt preview .playground",
         "lint": "eslint .",
-        "gdoc": "documentation build composables/**/*.ts --parse-extension ts -f html -o docs"
+        "gdoc": "documentation build composables/**/*.ts --parse-extension ts -f html -o docs && bun scripts/replace-documentation-theme/index.ts"
     },
     "type": "module",
     "dependencies": {
