@@ -8,7 +8,7 @@ By installing this layer, you can keep your Nuxt apps clean and DRY while reusin
 First install dependencies:
 
 ```bash
-npm i @internationalized/date @vueuse/integrations @vueuse/nuxt @vueuse/router date-fns-jalali gsap mitt
+npm i @internationalized/date @vueuse/integrations @vueuse/nuxt @vueuse/router date-fns-jalali mitt
 ```
 
 Add this layer to your Nuxt project:
@@ -73,6 +73,3 @@ This layer contains:
 
 - **`Event Bus`**  
   A global event bus for cross-component communication.
-
-- **`GSAP`**  
-  Registers [GSAP](https://greensock.com/gsap/) as a client-side animation library.
