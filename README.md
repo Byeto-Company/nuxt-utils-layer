@@ -15,19 +15,19 @@ Add this layer to your Nuxt project:
 
 ```ts
 export default defineNuxtConfig({
-  extends: ["github:Byeto-Company/nuxt-utils-layer"],
-})
+    extends: ["github:Byeto-Company/nuxt-utils-layer"],
+});
 ```
 
 ## 📂 Structure
 
 This layer contains:
 
-- **Utilities (`utils/`)**  
+- **Utilities (`utils/`)**
 
-- **Composables (`composables/`)**  
+- **Composables (`composables/`)**
 
-- **Plugins (`plugins/`)**  
+- **Plugins (`plugins/`)**
 
 ## 🛠️ Utilities
 
@@ -68,6 +68,9 @@ This layer contains:
 
 - **`useTimer`**  
   Provides an interval timer composable (start, stop, reset).
+
+- **`useAppBreakPoints`**  
+  Helper for detecting mobile - tablet - laptop - desktop breakpoints easily
 
 ## 🔌 Plugins
 

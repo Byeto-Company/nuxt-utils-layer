@@ -1,3 +1,11 @@
+# Changes
+
+## [1.1.2] - 2025-09-15
+
+### Added
+
+- New useAppBreakPoints composable to detect mobile - tabled - laptop - desktop
+
 ## [1.0.2] - 2025-08-24
 
 ### Removed
@@ -16,6 +24,7 @@
 
 - Initial release of Nuxt Utils layer.
 
+[1.1.2]: https://github.com/Byeto-Company/nuxt-utils-layer/releases/tag/v1.1.2
 [1.0.2]: https://github.com/Byeto-Company/nuxt-utils-layer/releases/tag/v1.0.2
 [1.0.1]: https://github.com/Byeto-Company/nuxt-utils-layer/releases/tag/v1.0.1
 [1.0.0]: https://github.com/Byeto-Company/nuxt-utils-layer/releases/tag/v1.0.0
