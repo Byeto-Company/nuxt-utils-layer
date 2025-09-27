@@ -72,6 +72,9 @@ This layer contains:
 - **`useAppBreakPoints`**  
   Helper for detecting mobile - tablet - laptop - desktop breakpoints easily
 
+- **`useHaveOverflow`**  
+  Detecting that is given element have vertical overflow or not
+
 ## 🔌 Plugins
 
 - **`Event Bus`**  

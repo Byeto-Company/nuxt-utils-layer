@@ -1,5 +1,13 @@
 # Changes
 
+## [1.2.2] - 2025-09-27
+
+### Added
+
+- New useHaveOverflow composable to detect overflow of element in vertical
+
+# Changes
+
 ## [1.1.2] - 2025-09-15
 
 ### Added
@@ -24,6 +32,7 @@
 
 - Initial release of Nuxt Utils layer.
 
+[1.2.2]: https://github.com/Byeto-Company/nuxt-utils-layer/releases/tag/v1.2.2
 [1.1.2]: https://github.com/Byeto-Company/nuxt-utils-layer/releases/tag/v1.1.2
 [1.0.2]: https://github.com/Byeto-Company/nuxt-utils-layer/releases/tag/v1.0.2
 [1.0.1]: https://github.com/Byeto-Company/nuxt-utils-layer/releases/tag/v1.0.1
